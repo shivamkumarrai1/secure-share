@@ -39,10 +39,9 @@ export default function SignIn() {
 
             <Button type="submit" variant="contained">Sign In</Button>
 
-            {<p>Don't have an account? <a href="/auth/signup">Sign up</a></p>
-            }
+
             <Typography variant="body2" sx={{ mt: 2 }}>
-                Don&apos;t have an account?{" "}
+                Don't have an account?{" "}
                 <Link href="/auth/signup">Sign up</Link>
             </Typography>
         </Box>
